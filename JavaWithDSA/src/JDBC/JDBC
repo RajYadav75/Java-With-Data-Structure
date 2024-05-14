@@ -1,0 +1,21 @@
+JDBC:
+    1. The process of interacting  with the database from java application called JDBC.
+    2. JDBC is an API, which will provide predefined library to connect with database from java application in order to perform the basic database operation
+    3. In case of JDBC application we will define the database logic in java application and send a representation database logic to database engine.
+    4. But Database engine is unable to execute the java representation database logic so it should required database logic in Query Language representation.
+    5. Driver: In the above situation the conversion mechanisms is available in the form of a software called as "Driver".
+    6. Database Operation:
+                CRUD
+                1. Read
+                2. Create
+                3. Write
+                4. Update
+                5. Delete
+    7. Driver is an interface exist between java application and database to map java API calls to Query language API calls and query language API to java API calls.
+-----------------------------------------------------------------------------------------------------------------------
+Step to design JDBC Application:
+    1. Load and Register the driver
+    2. Establish the connection between database to java application
+    3. Prepare either statement or prepared statement
+    4. Write and execute SQL queries
+    5. Clone the connection
