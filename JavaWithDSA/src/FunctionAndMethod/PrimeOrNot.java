@@ -1,3 +1,4 @@
+/*
 public class PrimeorNot {
     public static boolean isPrime(int n){
         boolean prime = true;
@@ -15,4 +16,4 @@ public class PrimeorNot {
     public static void main(String[] args) {
         System.out.println(isPrime(9));
     }
-}
+}*/
